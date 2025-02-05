@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  BUILD_PATH: "."  # Change if your project is in a subfolder
+  BUILD_PATH: "."  # Change this if your project is in a subfolder
 
 jobs:
   build:
@@ -61,19 +61,17 @@ jobs:
             exit 1
           fi
 
+      # Install pnpm if it is detected
+      - name: Install pnpm
+        if: ${{ steps.detect-package-manager.outputs.manager == 'pnpm' }}
+        run: npm install -g pnpm
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
           cache-dependency-path: ${{ env.BUILD_PATH }}/${{ steps.detect-package-manager.outputs.lockfile }}
-
-      # Install pnpm globally if it's the chosen package manager
-      - name: Install pnpm
-        if: ${{ steps.detect-package-manager.outputs.manager == 'pnpm' }}
-        run: npm install -g pnpm
-
-      # (Optional) If you decide to use Bun in the future, add an installation step here.
 
       - name: Setup Pages
         id: pages
