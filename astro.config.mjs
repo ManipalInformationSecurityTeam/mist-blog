@@ -5,5 +5,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: "https://res.wearemist.in",
+  base: "mist-blog",
   integrations: [mdx(), sitemap(), tailwind()],
 });
