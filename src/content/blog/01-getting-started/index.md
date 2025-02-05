@@ -42,6 +42,7 @@ For those who prefer a safe and isolated environment without altering your exist
 ### 1.2 Dual Boot Setup
 
 For users who are confident and want a more robust Linux experience, dual booting is a viable option. However, be cautious: dual booting comes with risks, such as potentially wiping your laptop if done incorrectly.
+
 Dual booting, however, does come with its own set of risks. Windows might cause issues or even result in data loss if the configuration is not done correctly. Therefore, proceed with caution. Moreover, in recent times, Windows has actively become hostile towards Linux installs, and it may even try to overwrite your bootloader, thus preventing you from booting into Linux entirely.
 
 - **Ubuntu Dual Boot**
