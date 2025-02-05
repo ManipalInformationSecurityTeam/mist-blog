@@ -39,7 +39,7 @@ For those who prefer a safe and isolated environment without altering your exist
 
 ### 1.2 Dual Boot Setup
 
-For users who are confident and want a more robust Linux experience, dual booting is a viable option. However, be cautious: dual booting comes with risks, such as potentially wiping your laptop if done incorrectly. **Mac users:** Please reach out to Aadit for specific advice tailored to your setup.
+For users who are confident and want a more robust Linux experience, dual booting is a viable option. However, be cautious: dual booting comes with risks, such as potentially wiping your laptop if done incorrectly. **Mac users:** Unix commands and basic programs just work on MacOS. If not, consider using a tool like OrbStack for minimal overhead CLI VMs.
 
 - **Ubuntu Dual Boot**
   Watch the [Ubuntu Dual Boot Setup Video](https://www.youtube.com/watch?v=8TnOqM_GyqM).
