@@ -68,6 +68,13 @@ jobs:
           cache: ${{ steps.detect-package-manager.outputs.manager }}
           cache-dependency-path: ${{ env.BUILD_PATH }}/${{ steps.detect-package-manager.outputs.lockfile }}
 
+      # Install pnpm globally if it's the chosen package manager
+      - name: Install pnpm
+        if: ${{ steps.detect-package-manager.outputs.manager == 'pnpm' }}
+        run: npm install -g pnpm
+
+      # (Optional) If you decide to use Bun in the future, add an installation step here.
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
