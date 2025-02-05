@@ -31,6 +31,8 @@ Before diving into CTF challenges and Linux Luminarium tasks, you'll need a work
 
 For those who prefer a safe and isolated environment without altering your existing operating system, using a virtual machine (VM) is ideal. **Ubuntu** is recommended for its ease of use and compatibility, while **Fedora** may not work as well on a VM.
 
+**Mac users (especially on Apple Silicon Macs):** Unix commands and basic programs just work on MacOS. If not, consider using a tool like OrbStack for minimal overhead CLI VMs.
+
 - **Ubuntu on VM**
   Watch this detailed [Ubuntu Virtual Machine Setup Video](https://www.youtube.com/watch?v=Hva8lsV2nTk).
 
@@ -39,7 +41,7 @@ For those who prefer a safe and isolated environment without altering your exist
 
 ### 1.2 Dual Boot Setup
 
-For users who are confident and want a more robust Linux experience, dual booting is a viable option. However, be cautious: dual booting comes with risks, such as potentially wiping your laptop if done incorrectly. **Mac users:** Unix commands and basic programs just work on MacOS. If not, consider using a tool like OrbStack for minimal overhead CLI VMs.
+For users who are confident and want a more robust Linux experience, dual booting is a viable option. However, be cautious: dual booting comes with risks, such as potentially wiping your laptop if done incorrectly.
 Dual booting, however, does come with its own set of risks. Windows might cause issues or even result in data loss if the configuration is not done correctly. Therefore, proceed with caution. Moreover, in recent times, Windows has actively become hostile towards Linux installs, and it may even try to overwrite your bootloader, thus preventing you from booting into Linux entirely.
 
 - **Ubuntu Dual Boot**
@@ -68,7 +70,7 @@ As you progress through the Linux Luminarium challenges, it's crucial to keep a 
 
 Below is a suggested Markdown template for documenting your CTF challenge solutions. Feel free to modify it to suit your workflow:
 
-```markdown
+```md
 # CTF Challenge Name
 
 ## Challenge
