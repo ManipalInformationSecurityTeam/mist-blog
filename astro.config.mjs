@@ -4,6 +4,6 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://mb.sys256.com",
+  site: "https://res.wearemist.in",
   integrations: [mdx(), sitemap(), tailwind()],
 });
