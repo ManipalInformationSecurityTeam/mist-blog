@@ -8,6 +8,10 @@ date: "Feb 5 2025"
 
 Welcome to the world of Capture The Flag (CTF) challenges! This guide will focus on PicoCTF, an educational CTF platform created by Carnegie Mellon University. PicoCTF was launched in 2013 to introduce high school students to cybersecurity concepts through gamified learning. Today, it serves as one of the most popular entry points into CTF competitions.
 
+When practising these questions, maintain writeups as defined in the previous article, as these help you gain a comprehensive understanding of the topics at hand. They're also certification for your approach and a great resource for yourself if you ever happen to revisit that question.
+
+Written by [Aryan Kudva](https://github.com/hadakoi) and [Aadit Agrawal](https://aaditagrawal.com).
+
 ---
 
 ## Challenge Categories
