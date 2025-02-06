@@ -4,18 +4,6 @@ description: "A comprehensive guide to PicoCTF challenges"
 date: "Feb 6 2025"
 ---
 
-## Table of Contents
-
-- [Getting Started with CTF Challenges](#getting-started-with-ctf-challenges)
-- [Challenge Categories](#challenge-categories)
-  - [Cryptography](#cryptography)
-  - [Binary Exploitation](#binary-exploitation)
-  - [Web Exploitation](#web-exploitation)
-  - [Forensics](#forensics)
-  - [Reverse Engineering](#reverse-engineering)
-
----
-
 ## Getting Started with CTF Challenges
 
 Welcome to the world of Capture The Flag (CTF) challenges! This guide will focus on PicoCTF, an educational CTF platform created by Carnegie Mellon University. PicoCTF was launched in 2013 to introduce high school students to cybersecurity concepts through gamified learning. Today, it serves as one of the most popular entry points into CTF competitions.
@@ -23,6 +11,17 @@ Welcome to the world of Capture The Flag (CTF) challenges! This guide will focus
 When practising these questions, maintain writeups as defined in the previous article, as these help you gain a comprehensive understanding of the topics at hand. They're also certification for your approach and a great resource for yourself if you ever happen to revisit that question.
 
 Written by [Aryan Kudva](https://github.com/hadakoi) and [Aadit Agrawal](https://aaditagrawal.com).
+
+---
+
+## Table of Contents
+
+- [Challenge Categories](#challenge-categories)
+  - [Cryptography](#cryptography)
+  - [Binary Exploitation](#binary-exploitation)
+  - [Web Exploitation](#web-exploitation)
+  - [Forensics](#forensics)
+  - [Reverse Engineering](#reverse-engineering)
 
 ---
 
