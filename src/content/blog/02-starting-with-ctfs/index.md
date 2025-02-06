@@ -1,6 +1,7 @@
 ---
 title: "Starting with CTFs"
 description: "A comprehensive guide to PicoCTF challenges"
+author: "Sherlock, Aryan Kudva"
 date: "Feb 6 2025"
 ---
 
