@@ -1,7 +1,7 @@
 ---
 title: "Starting with CTFs"
 description: "A comprehensive guide to PicoCTF challenges"
-date: "Feb 5 2025"
+date: "Feb 6 2025"
 ---
 
 ## Getting Started with CTF Challenges
