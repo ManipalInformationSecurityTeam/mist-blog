@@ -11,8 +11,6 @@ Welcome to the world of Capture The Flag (CTF) challenges! This guide will focus
 
 When practising these questions, maintain writeups as defined in the previous article, as these help you gain a comprehensive understanding of the topics at hand. They're also certification for your approach and a great resource for yourself if you ever happen to revisit that question.
 
-Written by [Aryan Kudva](https://github.com/hadakoi) and [Aadit Agrawal](https://aaditagrawal.com).
-
 ---
 
 ## Table of Contents

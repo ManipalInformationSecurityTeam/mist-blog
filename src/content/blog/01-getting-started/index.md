@@ -9,8 +9,6 @@ date: "Feb 5 2025"
 
 Welcome to this comprehensive guide for beginners looking to set up a Linux environment for CTF challenges and Linux Luminarium tasks. Whether you're running Windows or macOS, this guide will walk you through both Virtual Machine and Dual Boot setups, and then guide you through your first steps into the world of Linux-based challenges.
 
-Written by [Aryan Kudva](https://github.com/hadakoi) and [Aadit Agrawal](https://aaditagrawal.com).
-
 ---
 
 ## Table of Contents
