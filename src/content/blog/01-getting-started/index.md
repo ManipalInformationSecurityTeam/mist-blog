@@ -1,6 +1,7 @@
 ---
 title: "Getting started"
 description: "Here's how you start with MarkDown."
+author: "Sherlock, Aryan Kudva"
 date: "Feb 5 2025"
 ---
 
